@@ -2,12 +2,14 @@
 
 - Install and setup Vite - npm create vite@latest
 - Configure TailwindCSS
-
-
-
+- Header
+- Login Form
+- Signup Form
 
 # Features
+
 - Login/Signup Page
+
   - Sign In / Sign Up Form
   - redirect to browse page
 
@@ -17,8 +19,7 @@
     - Trailer in Background
     - Title & Description
     - Movie Suggestions
-      - Movie List * N
+      - Movie List \* N
 - NetflixGPT
   - Seach Bar
   - Movie Suggestions
-
