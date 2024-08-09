@@ -1,16 +1,13 @@
 import { useSelector } from "react-redux";
 import useTrailerVideo from "../hooks/useTrailerVideo";
 const VideoBackground = ({ movieId }) => {
-  console.log(movieId);
-
   useTrailerVideo(movieId);
 
   const youtubeKey = useSelector((store) => store.movies?.trailerVideo?.key);
   if (!youtubeKey) return;
-  console.log(youtubeKey);
+
   const youtubeUrl = "https://www.youtube.com/embed/";
   // fetch my trailer video
-  console.log(youtubeUrl + youtubeKey);
 
   return (
     <div className="w-full">
