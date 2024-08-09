@@ -16,6 +16,19 @@
 - Implement Sign out
 - Update profile
 - Fetch from TMDB Movies
+- BugFix : Sign up user displauName and profile picture update
+- bugFix: if the user is not logged in redirect /browse to login Page vice-versa
+- Unsubescribed to the onauthStateChange callback
+- Add hardcoded values to the constants file
+- Register TMDB API & create an app & get access token
+- Get Data from TMDB now playing movies list API
+- Custom Hook for Now Playing Movies
+- Create MovieSlice
+- Update Store with movies Data
+- Plaining for MainContainer & secondary container
+- Fetch Data for Trailer Video Data
+- Embedded the youtube Video and make it autoplay and mute
+- Tailwind Classes to make main Container Look awesome
 
 # Features
 
@@ -44,3 +57,12 @@
   4. Deploy command - "firebase deply"
 
   # Reading Documentation is a Superpower of a Developer
+
+  # TMDB API Credential
+
+  API Key - 27a9049800c6caa0e75499e995f469b4
+
+  API Read Access Token -
+  eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyN2E5MDQ5ODAwYzZjYWEwZTc1NDk5ZTk5NWY0NjliNCIsIm5iZiI6MTcyMzEyMTU2OS4xMTYwMzcsInN1YiI6IjY2YjRiZDY2Y2YxMGJlZThhOGM1Y2ZmMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.i7KRq5XHn2GDSBa3C7KQZz021BnJTIwusUcYtX2WNiw
+
+Documentation URL : https://developer.themoviedb.org/docs/getting-started
